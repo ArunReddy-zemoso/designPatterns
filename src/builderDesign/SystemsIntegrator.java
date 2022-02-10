@@ -13,6 +13,6 @@ public class SystemsIntegrator {
     public void buildComputer(){
         this.computerBuilder.buildProcessor();
         this.computerBuilder.buildRam();
-        this.computerBuilder.buildGraphicsCard();
+        this.computerBuilder.buildGraphicsCard();//comment
     }
 }
