@@ -27,9 +27,7 @@ public class MobileShop implements Cloneable{
 
     public Object clone() throws CloneNotSupportedException{
         List<String> temp=new ArrayList<>();
-        for(String str: this.mobiles){
-            temp.add(str);
-        }
+        temp.addAll(this.mobiles);
         return new MobileShop(temp);
     }
 
