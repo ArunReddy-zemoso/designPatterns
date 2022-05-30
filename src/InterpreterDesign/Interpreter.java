@@ -13,7 +13,7 @@ public class Interpreter {
         String[] tokens = interpret(inputData);
         int x = Integer.parseInt(tokens[0]);
         int y = Integer.parseInt(tokens[1]);
-        return x - y;
+        return y - x;
     }
 
     public int multiplication(String inputData) {

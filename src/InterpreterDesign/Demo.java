@@ -6,7 +6,7 @@ public class Demo {
         Client client = new Client(interpreter);
         System.out.println("Addition of both numbers is = " + client.interpret("add 300 and 75"));
         System.out.println();
-        System.out.println("Subtraction of both numbers is = " + client.interpret("subtract 4 from 100"));
+        System.out.println("Subtraction of both numbers is = " + client.interpret("subtract 104 from 100"));
         System.out.println();
         System.out.println("Multiplication of both numbers is = " + client.interpret("multiply 4 and 100"));
         System.out.println();
