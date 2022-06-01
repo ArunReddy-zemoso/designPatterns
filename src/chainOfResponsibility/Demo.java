@@ -11,7 +11,7 @@ public class Demo {
         operationsCal2.setNextOperation(operationsCal3);
         operationsCal3.setNextOperation(operationsCal4);
 
-        Numbers request = new Numbers(4,6,"div");
+        Numbers request = new Numbers(4,6,"pow");
 
         operationsCal1.calculate(request);
     }
